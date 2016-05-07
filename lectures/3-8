@@ -1,0 +1,9 @@
+gem 'devise' --> add to gem file
+- installs dependencies
+- defines routes to sign-in, sign-out, edit, register, etc.
+
+rails generate model Post title:string user:references
+- references :user, index: true (faster to look up a user)
+
+controllers --> pluralized
+rails generate controllers Quits etc.
